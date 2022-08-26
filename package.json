@@ -7,13 +7,15 @@
   "private": true,
   "dependencies": {
     "@sap/cds": ">=5",
+    "@sap/cds-dk": "^6.1.2",
     "express": "^4"
   },
   "devDependencies": {
     "sqlite3": "^5.0.4"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "watch": "cds watch"
   },
   "engines": {
     "node": "^16.15"
